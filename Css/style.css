@@ -30,3 +30,10 @@ p {
   color: var(--cor-texto);
 
 }
+
+#botao_mude{
+  background-color: var(--cor-cyan);
+  color: var(--cor-texto);
+  border-radius: 5px;
+  
+}
