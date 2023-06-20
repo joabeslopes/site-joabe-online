@@ -1,8 +1,8 @@
 :root{
-  --cor-fundo: black;
+  --cor-fundo: rgb(48, 46, 46);
   --cor-cyan: DarkCyan;
   --cor-amarelo-claro: #eceb7f;
-  --cor-roxo: #8142f7;
+  --cor-roxo: #874af7;
   --cor-texto: white;
   --cor-tag-mude: rgb(252, 249, 65);
 }
