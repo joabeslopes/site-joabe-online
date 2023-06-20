@@ -1,18 +1,33 @@
+:root{
+  --cor-fundo: black;
+  --cor-cyan: DarkCyan;
+  --cor-amarelo-claro: #eceb7f;
+  --cor-roxo: #8142f7;
+  --cor-texto: white;
+  --cor-tag-mude: rgb(252, 249, 65);
+}
+
 body {
-  background-color: DarkCyan;
+  background-color: var(--cor-fundo);
 }
 
 h1 {
-  color: #eceb7f;
+  color: var(--cor-roxo);
   text-align: center;
 }
 
 p {
   font-family: verdana;
   font-size: 20px;
-  color: white;
+  color: var(--cor-texto);
 }
 
 #mude{
-  color: rgb(252, 249, 65);
+  color: var(--cor-tag-mude);
+}
+
+#barra-superior{
+  background-color: var(--cor-roxo);
+  color: var(--cor-texto);
+
 }
