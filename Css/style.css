@@ -3,16 +3,16 @@ body {
 }
 
 h1 {
-  color: white;
+  color: #eceb7f;
   text-align: center;
 }
 
 p {
   font-family: verdana;
   font-size: 20px;
+  color: white;
 }
 
 #mude{
-  text-align: center;
-  color: rgb(223, 173, 46);
+  color: rgb(252, 249, 65);
 }
