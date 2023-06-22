@@ -25,11 +25,19 @@ p {
   color: var(--cor-tag-mude);
 }
 
-#barra-superior{
-  background-color: var(--cor-roxo);
-  color: var(--cor-texto);
+.barra-superior{
+    background-color: var(--cor-roxo);
 
 }
+
+.nav-link{
+  color: var(--cor-texto) !important;
+}
+
+.navbar-brand{
+  color: var(--cor-texto) !important;
+}
+
 
 #botao_mude{
   background-color: var(--cor-cyan);
