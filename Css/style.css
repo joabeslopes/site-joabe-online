@@ -5,6 +5,7 @@
   --cor-roxo: #874af7;
   --cor-texto: white;
   --cor-tag-mude: rgb(252, 249, 65);
+
 }
 
 body {
@@ -19,6 +20,10 @@ p {
   color: var(--cor-texto);
 }
 
+pre{
+  color: var(--cor-texto);
+  white-space: pre-wrap;
+}
 
 #conteudo-main{
   margin: 10px;
@@ -58,4 +63,25 @@ p {
 
 .active{
   color: var(--cor-tag-mude) !important;
+}
+
+.fa{
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.fa-instagram{
+  background: #e4268e;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github{
+  background: #3b4b5f;
+  color: white;
 }
