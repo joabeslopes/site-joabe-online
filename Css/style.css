@@ -11,14 +11,19 @@ body {
   background-color: var(--cor-fundo);
 }
 
-h1 {
+h1, h2 {
   color: var(--cor-roxo);
-  text-align: center;
+  
 }
 
 p {
   font-size: 20px;
   color: var(--cor-texto);
+}
+
+#welcome{
+  text-align: center;
+  font: size 1em;
 }
 
 #mude{
