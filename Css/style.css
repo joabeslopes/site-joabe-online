@@ -25,6 +25,13 @@ p {
   color: var(--cor-tag-mude);
 }
 
+#botao_mude{
+  background-color: var(--cor-cyan);
+  color: var(--cor-texto);
+  border-radius: 5px;
+  
+}
+
 .barra-superior{
     background-color: var(--cor-roxo);
 
@@ -38,10 +45,6 @@ p {
   color: var(--cor-texto) !important;
 }
 
-
-#botao_mude{
-  background-color: var(--cor-cyan);
-  color: var(--cor-texto);
-  border-radius: 5px;
-  
+.active{
+  color: var(--cor-tag-mude) !important;
 }
