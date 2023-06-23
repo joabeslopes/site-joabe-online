@@ -13,17 +13,23 @@ body {
 
 h1, h2 {
   color: var(--cor-roxo);
-  
 }
 
 p {
-  font-size: 20px;
   color: var(--cor-texto);
+}
+
+
+#conteudo-main{
+  margin: 10px;
+  font-size: 20px;
 }
 
 #welcome{
   text-align: center;
-  font: size 1em;
+  background-color: var(--cor-roxo);
+  color: var(--cor-texto);
+  margin-bottom: 0;
 }
 
 #mude{
