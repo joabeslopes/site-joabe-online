@@ -25,11 +25,6 @@ pre{
   white-space: pre-wrap;
 }
 
-#conteudo-main{
-  margin: 10px;
-  font-size: 20px;
-}
-
 #welcome{
   text-align: center;
   background-color: var(--cor-roxo);
@@ -65,10 +60,17 @@ pre{
   color: var(--cor-tag-mude) !important;
 }
 
+.conteudo-main{
+  margin: 10px;
+  font-size: 20px;
+}
+
+
 .fa{
   padding: 10px;
   text-decoration: none;
   border-radius: 5px;
+  font-size: 15px !important;
 }
 
 .fa-instagram{
@@ -84,4 +86,8 @@ pre{
 .fa-github{
   background: #3b4b5f;
   color: white;
+}
+
+.icones{
+  float: right;
 }
