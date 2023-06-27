@@ -88,3 +88,11 @@ header{
   border-radius: 5px;
   width: 200px;
 }
+
+.titulo-projeto{
+  text-align: left;
+  font-size: 32px;
+  padding-left : 30px;
+  text-decoration:dashed;
+  color: #0d98d8;
+}
