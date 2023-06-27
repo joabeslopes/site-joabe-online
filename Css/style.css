@@ -26,7 +26,9 @@ pre{
 }
 
 main{
-  margin: 10px;
+
+  margin-top: 45px;
+  margin-left: 10px;
   font-size: 20px;
 }
 
