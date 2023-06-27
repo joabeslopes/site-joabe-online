@@ -7,6 +7,8 @@
 
 }
 
+/* Tags HTML */
+
 body {
   background-color: var(--cor-fundo);
 }
@@ -30,6 +32,9 @@ header{
   background-color: var(--cor-roxo);
 }
 
+
+/* IDs */
+
 #welcome{
   text-align: left;
   color: var(--cor-texto);
@@ -48,6 +53,14 @@ header{
   
 }
 
+#foto-perfil-github{
+  border-radius: 5px;
+  width: 200px;
+}
+
+
+/* Classes */
+
 .nav-link{
   color: var(--cor-texto) !important;
 }
@@ -59,7 +72,6 @@ header{
 .active{
   color: var(--cor-amarelo) !important;
 }
-
 
 .fa{
   margin-right: 10px;
@@ -82,11 +94,6 @@ header{
 .fa-github{
   background: #3b4b5f;
   color: white;
-}
-
-#foto-perfil-github{
-  border-radius: 5px;
-  width: 200px;
 }
 
 .titulo-projeto{
