@@ -27,17 +27,18 @@ pre{
 }
 
 main{
-
   margin-top: 10px;
   margin-left: 10px;
+}
 
+header{
+  background-color: var(--cor-roxo);
 }
 
 #welcome{
   text-align: center;
-  background-color: var(--cor-roxo);
   color: var(--cor-texto);
-  margin-bottom: 0;
+  margin: 0;
 }
 
 #mude{
@@ -49,11 +50,6 @@ main{
   color: var(--cor-texto);
   border-radius: 5px;
   
-}
-
-.barra-superior{
-    background-color: var(--cor-roxo);
-
 }
 
 .nav-link{
