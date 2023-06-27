@@ -25,6 +25,11 @@ pre{
   white-space: pre-wrap;
 }
 
+main{
+  margin: 10px;
+  font-size: 20px;
+}
+
 #welcome{
   text-align: center;
   background-color: var(--cor-roxo);
@@ -58,11 +63,6 @@ pre{
 
 .active{
   color: var(--cor-tag-mude) !important;
-}
-
-.conteudo-main{
-  margin: 10px;
-  font-size: 20px;
 }
 
 
