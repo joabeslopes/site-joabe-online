@@ -109,3 +109,9 @@ header{
   max-height: 90%;
   max-width: 90%;
 }
+
+.borda-roxa{
+  margin-left: 10px;
+  border-left: 3px solid var(--cor-roxo);
+  padding-left: 10px;
+}
