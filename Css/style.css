@@ -4,6 +4,7 @@
   --cor-roxo: #874af7;
   --cor-texto: white;
   --cor-amarelo: rgb(252, 249, 65);
+  --cor-titulo-projeto: #0d98d8;
 
 }
 
@@ -100,10 +101,11 @@ header{
   text-align: left;
   font-size: 32px;
   padding-left : 30px;
-  text-decoration:dashed;
-  color: #0d98d8;
+  color: var(--cor-titulo-projeto);
 }
 
 .foto-app-pesquisa-java{
-  padding-left: 20px;
+  padding: 10px;
+  max-height: 90%;
+  max-width: 90%;
 }
