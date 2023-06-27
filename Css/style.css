@@ -1,10 +1,9 @@
 :root{
   --cor-fundo: rgb(48, 46, 46);
   --cor-cyan: DarkCyan;
-  --cor-amarelo-claro: #eceb7f;
   --cor-roxo: #874af7;
   --cor-texto: white;
-  --cor-tag-mude: rgb(252, 249, 65);
+  --cor-amarelo: rgb(252, 249, 65);
 
 }
 
@@ -23,14 +22,8 @@ p {
   line-height: 2;
 }
 
-pre{
-  color: var(--cor-texto);
-  white-space: pre-wrap;
-}
-
 main{
-  margin-top: 10px;
-  margin-left: 10px;
+  margin: 10px;
 }
 
 header{
@@ -38,13 +31,14 @@ header{
 }
 
 #welcome{
-  text-align: center;
+  text-align: left;
   color: var(--cor-texto);
-  margin: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
 }
 
 #mude{
-  color: var(--cor-tag-mude);
+  color: var(--cor-amarelo);
 }
 
 #botao_mude{
@@ -63,7 +57,7 @@ header{
 }
 
 .active{
-  color: var(--cor-tag-mude) !important;
+  color: var(--cor-amarelo) !important;
 }
 
 
