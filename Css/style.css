@@ -1,7 +1,8 @@
 :root{
   --cor-fundo: rgb(48, 46, 46);
   --cor-cyan: DarkCyan;
-  --cor-roxo: #874af7;
+  --cor-roxo-claro: #874af7;
+  --cor-roxo-escuro: #3b083b;
   --cor-texto: white;
   --cor-amarelo: rgb(252, 249, 65);
   --cor-titulo-projeto: #0d98d8;
@@ -17,7 +18,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  color: var(--cor-roxo);
+  color: var(--cor-roxo-claro);
   text-align: center;
 }
 
@@ -31,7 +32,7 @@ main{
 }
 
 header{
-  background-color: var(--cor-roxo);
+  background-image: linear-gradient(to bottom right, var(--cor-roxo-escuro), var(--cor-roxo-claro));
 }
 
 
@@ -127,6 +128,6 @@ header{
 
 .borda-roxa{
   margin-left: 10px;
-  border-left: 3px solid var(--cor-roxo);
+  border-left: 3px solid var(--cor-roxo-claro);
   padding-left: 10px;
 }
