@@ -1,3 +1,3 @@
 function changeButton() {
-  document.getElementById("change").innerHTML = "Obrigado";
+  document.getElementById("change").innerHTML = "Thank you";
 }
