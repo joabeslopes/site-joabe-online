@@ -1,29 +1,29 @@
 :root{
-  --cor-fundo: rgb(48, 46, 46);
-  --cor-cyan: DarkCyan;
-  --cor-roxo-claro: #874af7;
-  --cor-roxo-escuro: #3b083b;
-  --cor-texto: white;
-  --cor-amarelo: rgb(252, 249, 65);
-  --cor-titulo-projeto: #0d98d8;
+  --color-grey: rgb(48, 46, 46);
+  --color-cyan: DarkCyan;
+  --color-purple: #874af7;
+  --color-dark-purple: #3b083b;
+  --color-text: white;
+  --color-yellow: rgb(252, 249, 65);
+  --color-project-title: #0d98d8;
 
 }
 
 /* Tags HTML */
 
 body {
-  background-color: var(--cor-fundo);
+  background-color: var(--color-grey);
   font-family: 'Belanosima', sans-serif;
   font-size: 20px;
 }
 
 h1,h2,h3,h4,h5,h6 {
-  color: var(--cor-roxo-claro);
+  color: var(--color-purple);
   text-align: center;
 }
 
 p {
-  color: var(--cor-texto);
+  color: var(--color-text);
   line-height: 2;
 }
 
@@ -32,7 +32,7 @@ main{
 }
 
 header{
-  background-image: linear-gradient(to bottom right, var(--cor-roxo-escuro), var(--cor-roxo-claro));
+  background-image: linear-gradient(to bottom right, var(--color-dark-purple), var(--color-purple));
 }
 
 
@@ -40,28 +40,28 @@ header{
 
 #welcome{
   text-align: left;
-  color: var(--cor-texto);
+  color: var(--color-text);
   margin-bottom: 0;
   margin-left: 10px;
 }
 
-#mude{
-  color: var(--cor-amarelo);
+#change{
+  color: var(--color-yellow);
 }
 
-#botao_mude{
-  background-color: var(--cor-cyan);
-  color: var(--cor-texto);
+#change-button{
+  background-color: var(--color-cyan);
+  color: var(--color-text);
   border-radius: 5px;
   
 }
 
-#foto-perfil-github{
+#my-github-profile-picture{
   border-radius: 5px;
   width: 200px;
 }
 
-#icone-joabe-nome{
+#joabe-icon-name{
   padding-top: 5px;
   width: 100px;
 }
@@ -70,15 +70,15 @@ header{
 /* Classes */
 
 .nav-link{
-  color: var(--cor-texto) !important;
+  color: var(--color-text) !important;
 }
 
 .navbar-brand{
-  color: var(--cor-texto) !important;
+  color: var(--color-text) !important;
 }
 
 .active{
-  color: var(--cor-amarelo) !important;
+  color: var(--color-yellow) !important;
 }
 
 .navbar-toggler {
@@ -113,11 +113,11 @@ header{
   color: white;
 }
 
-.titulo-projeto{
+.project-title{
   text-align: left;
   font-size: 32px;
   padding-left : 30px;
-  color: var(--cor-titulo-projeto);
+  color: var(--color-project-title);
 }
 
 .foto-app-pesquisa-java{
@@ -126,8 +126,8 @@ header{
   max-width: 90%;
 }
 
-.borda-roxa{
+.purple-border{
   margin-left: 10px;
-  border-left: 3px solid var(--cor-roxo-claro);
+  border-left: 3px solid var(--color-purple);
   padding-left: 10px;
 }
