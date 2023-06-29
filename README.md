@@ -1,5 +1,5 @@
-# Bem vindo ao meu site
+# Welcome to my website
 
-Este é meu primeiro site pessoal, feito para me apresentar ao mundo e mostrar meus projetos
+This is my first personal website, created to show to the world a little bit of who i am and what i'm doing.
 
-Ele está ativo no github pages, através [deste link](https://joabeslopes.github.io/site-joabe-online/)
+It is active on github pages, beyond [this url](https://joabeslopes.github.io/site-joabe-online/).
