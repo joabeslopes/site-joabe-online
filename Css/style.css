@@ -1,18 +1,19 @@
 :root{
-  --color-grey: rgb(48, 46, 46);
+  --color-background: rgb(48, 46, 46);
+  --color-text: white;
+  --color-project-title: #0d98d8;
+  --color-side-border: #874af7;
+
   --color-cyan: DarkCyan;
   --color-purple: #874af7;
   --color-dark-purple: #3b083b;
-  --color-text: white;
   --color-yellow: rgb(252, 249, 65);
-  --color-project-title: #0d98d8;
-
 }
 
 /* Tags HTML */
 
 body {
-  background-color: var(--color-grey);
+  background-color: var(--color-background);
   font-family: 'Belanosima', sans-serif;
   font-size: 20px;
 }
@@ -37,13 +38,6 @@ header{
 
 
 /* IDs */
-
-#welcome{
-  text-align: left;
-  color: var(--color-text);
-  margin-bottom: 0;
-  margin-left: 10px;
-}
 
 #change{
   color: var(--color-yellow);
@@ -126,8 +120,8 @@ header{
   max-width: 90%;
 }
 
-.purple-border{
+.side-border{
   margin-left: 10px;
-  border-left: 3px solid var(--color-purple);
+  border-left: 3px solid var(--color-side-border);
   padding-left: 10px;
 }
