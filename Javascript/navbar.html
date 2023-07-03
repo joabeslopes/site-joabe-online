@@ -1,3 +1,22 @@
+<script>
+  var pathname = window.location.pathname;
+  
+  switch (pathname) {
+    case "/":
+    case "/index.html":
+      $('#navbarNavAltMarkup').find('#home-navbar').addClass('active');
+      break;      
+
+    case "/projects.html":
+      $('#navbarNavAltMarkup').find('#projects-navbar').addClass('active');
+      break;
+
+    case "/whoAmI.html":
+      $('#navbarNavAltMarkup').find('#whoami-navbar').addClass('active');
+      break;
+  }
+</script>
+
 <nav class="navbar navbar-expand-lg">  
   <div class="container-fluid">
       <a class="navbar-brand" href="index.html#"><img id="joabe-icon-name" src="Images/iconeJoabeNome.png"
@@ -8,9 +27,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link" href="index.html#">Home</a>
-          <a class="nav-link" href="projects.html#">Projects</a>
-          <a class="nav-link" href="whoAmI.html#">Who am i?</a>
+          <a id="home-navbar" class="nav-link" href="index.html#">Home</a>
+          <a id="projects-navbar" class="nav-link" href="projects.html#">Projects</a>
+          <a id="whoami-navbar" class="nav-link" href="whoAmI.html#">Who am i?</a>
           <a class="nav-link fa fa-instagram" href="https://www.instagram.com/joabesoareslopes/"> Instagram</a>
           <a class="nav-link fa fa-linkedin" href="https://br.linkedin.com/in/joabeslopes"> Linkedin</a>
           <a class="nav-link fa fa-github" href="https://github.com/joabeslopes"> Github</a>
