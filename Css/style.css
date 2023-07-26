@@ -1,9 +1,9 @@
 :root{
   --color-background: rgb(48, 46, 46);
   --color-text: white;
-  --color-project-title: #0d98d8;
+  --color-project-title: #874af7;
   --color-side-border: #874af7;
-
+  --color-a: #b08bf5;
   --color-cyan: DarkCyan;
   --color-purple: #874af7;
   --color-dark-purple: #3b083b;
@@ -36,6 +36,12 @@ header{
   background-image: linear-gradient(to bottom right, var(--color-dark-purple), var(--color-purple));
 }
 
+a{
+  color:var(--color-a);
+}
+a:hover{
+  color: var(--color-purple);
+}
 
 /* IDs */
 
@@ -114,10 +120,10 @@ header{
   color: var(--color-project-title);
 }
 
-.print-app-search-java{
+.print-images{
   padding: 10px;
-  max-height: 90%;
-  max-width: 90%;
+  max-height: 80%;
+  width: 400px;
 }
 
 .side-border{
