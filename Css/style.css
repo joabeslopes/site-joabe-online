@@ -131,3 +131,11 @@ a:hover{
   border-left: 3px solid var(--color-side-border);
   padding-left: 10px;
 }
+
+.footer {
+  position:relative;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
