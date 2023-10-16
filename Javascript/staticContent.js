@@ -1,3 +1,3 @@
-$('#nav-placeholder').load("Javascript/navbar.html")
+$('#nav-placeholder').load("Javascript/staticContent/navbar.html")
 
-$('#footer-placeholder').load("Javascript/footer.html")
+$('#footer-placeholder').load("Javascript/staticContent/footer.html")
