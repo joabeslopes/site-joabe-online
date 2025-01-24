@@ -2,6 +2,7 @@ function changeButton() {
   document.getElementById("change").innerHTML = "Thank you";
 };
 
+
 function loadProjects(){
 
   const articles = [
@@ -36,6 +37,7 @@ function setPage(page){
   $('main').load("dist/html/"+content);
 
 };
+
 
 function setStaticContent(){
 
