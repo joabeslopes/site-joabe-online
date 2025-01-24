@@ -6,6 +6,7 @@ function changeButton() {
 function loadProjects(){
 
 const articles = [
+    'app-escala-lixo',
     'git-joabe',
     'reaper-scripts-vs',
     'email-search-app-java',
