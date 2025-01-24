@@ -1,22 +1,3 @@
-<script>
-  var pathname = window.location.pathname;
-  
-  switch (pathname) {
-    case "/":
-    case "/index.html":
-      $('#navbarNavAltMarkup').find('#home-navbar').addClass('active');
-      break;      
-
-    case "/projects.html":
-      $('#navbarNavAltMarkup').find('#projects-navbar').addClass('active');
-      break;
-
-    case "/whoAmI.html":
-      $('#navbarNavAltMarkup').find('#whoami-navbar').addClass('active');
-      break;
-  }
-</script>
-
 <header>
 <nav class="navbar navbar-expand-lg">  
   <div class="container-fluid">
@@ -39,3 +20,5 @@
     </div>
 </nav>
 </header>
+
+<script type="text/javascript" src="src/js/navbar.js"></script>
