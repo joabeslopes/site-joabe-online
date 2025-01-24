@@ -70,11 +70,12 @@ a:hover{
 /* Classes */
 
 .nav-link{
-  color: var(--color-text) !important;
+  color: var(--color-text);
+  cursor: pointer;
 }
 
 .navbar-brand{
-  color: var(--color-text) !important;
+  color: var(--color-text);
 }
 
 .active{

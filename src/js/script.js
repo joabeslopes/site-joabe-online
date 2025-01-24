@@ -2,19 +2,44 @@ function changeButton() {
   document.getElementById("change").innerHTML = "Thank you";
 };
 
+function loadProjects(){
 
-function staticContent(){
-
-  $('#nav-placeholder').load("dist/html/navbar.html");
+  const articles = [
+      'git-joabe',
+      'reaper-scripts-vs',
+      'email-search-app-java',
+      'task-list-app-java',
+      'this-website'
+  ];
   
-  let pathname = window.location.pathname;
-  if (pathname == '/'){
-    pathname = "/index.html";
-  };
+  articles.forEach( (article, index) => {
+  
+      const project = $("<div>", {name: "project"+index});
+      project.load("dist/articles/"+article+".html");
+      $('#project-placeholder').append(project);
+  
+  }
+  );
+};
 
-  const content = pathname.replace('/','content-');
 
+function setPage(page){
+
+  // set navbar active
+  $('#navbarNavAltMarkup span').removeClass('active');
+  const navbarId = '#'+page+'-navbar';
+  $('#navbarNavAltMarkup').find(navbarId).addClass('active');
+
+
+  // set content
+  const content = 'content-'+page+'.html';
   $('main').load("dist/html/"+content);
+
+};
+
+function setStaticContent(){
+
+  $('#nav-placeholder').load("dist/html/navbar.html", () => setPage('index') );
   
   $('#footer-placeholder').load("dist/html/footer.html");
 
@@ -24,7 +49,7 @@ function staticContent(){
 // Main execution
 $(document).ready( () => {
 
-  staticContent();
+  setStaticContent();
 
 }
 );
