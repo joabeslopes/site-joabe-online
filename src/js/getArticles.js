@@ -1,9 +1,16 @@
-$('#git-joabe').load("dist/articles/git-joabe.html")
+const articles = [
+    'git-joabe',
+    'reaper-scripts-vs',
+    'email-search-app-java',
+    'task-list-app-java',
+    'this-website'
+];
 
-$('#reaper-scripts-vs').load("dist/articles/reaper-scripts-vs.html")
+articles.forEach( (article, index) => {
 
-$('#email-search-app-java').load("dist/articles/email-search-app-java.html")
+    const project = $("<div>", {name: "project"+index});
+    project.load("dist/articles/"+article+".html");
+    $('#project-placeholder').append(project);
 
-$('#task-list-app-java').load("dist/articles/task-list-app-java.html")
-
-$('#this-website').load("dist/articles/this-website.html")
+}
+);
