@@ -1,7 +1,3 @@
-// Main execution
-$(document).ready( () => {
+new Navbar();
 
-  loadStaticContent();
-
-}
-);
+new Footer();
