@@ -1,0 +1,95 @@
+:root {
+    --color-background: rgb(48, 46, 46);
+    --color-text: white;
+    --color-project-title: #874af7;
+    --color-side-border: #874af7;
+    --color-a: #b08bf5;
+    --color-cyan: DarkCyan;
+    --color-purple: #874af7;
+    --color-dark-purple: #3b083b;
+    --color-yellow: rgb(252, 249, 65);
+}
+
+/* Tags HTML */
+
+body {
+    background-color: var(--color-background);
+    font-family: 'Belanosima', sans-serif;
+    font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-purple);
+    text-align: center;
+}
+
+p {
+    color: var(--color-text);
+    line-height: 2;
+}
+
+main {
+    margin: 10px;
+}
+
+
+
+a {
+    color: var(--color-a);
+}
+
+a:hover {
+    color: var(--color-purple);
+}
+
+/* IDs */
+
+#change {
+    color: var(--color-yellow);
+}
+
+#change-button {
+    background-color: var(--color-cyan);
+    color: var(--color-text);
+    border-radius: 5px;
+
+}
+
+#my-github-profile-picture {
+    border-radius: 5px;
+    width: 200px;
+}
+
+#joabe-icon-name {
+    padding-top: 5px;
+    width: 100px;
+}
+
+
+/* Classes */
+
+
+
+.project-title {
+    text-align: left;
+    font-size: 32px;
+    padding-left: 30px;
+    color: var(--color-project-title);
+}
+
+.print-images {
+    padding: 10px;
+    max-height: 80%;
+    max-width: 80%;
+}
+
+.side-border {
+    margin-left: 10px;
+    border-left: 3px solid var(--color-side-border);
+    padding-left: 10px;
+}
