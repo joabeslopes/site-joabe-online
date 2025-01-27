@@ -1,3 +1,0 @@
-new Navbar();
-
-new Footer();
